@@ -306,19 +306,24 @@ docs/
 ## 十二、常见问题（FAQ）
 
 **Q1：提示连接 localhost:11434 失败？**
-A：确认 Ollama 服务已启动（`ollama list` 可正常执行），并检查端口 11434 未被占用。
+
+答：确认 Ollama 服务已启动（`ollama list` 可正常执行），并检查端口 11434 未被占用。
 
 **Q2：`python app.py build` 提示知识库没有文档？**
-A：将 TXT / PDF / Markdown 文件放入 `data/knowledge/` 目录后重试。
+
+答：将 TXT / PDF / Markdown 文件放入 `data/knowledge/` 目录后重试。
 
 **Q3：回答质量不理想？**
-A：可增大 `CHUNK_SIZE` / `RETRIEVER_K` 或更换更大模型；注意文本切分参数修改后需重建索引。
+
+答：可增大 `CHUNK_SIZE` / `RETRIEVER_K` 或更换更大模型；注意文本切分参数修改后需重建索引。
 
 **Q4：更换了对话模型但效果没变化？**
-A：确认 `.env` 中 `LLM_MODEL` 已修改，且已执行 `ollama pull <新模型>` 与 `python app.py build`。
+
+答：确认 `.env` 中 `LLM_MODEL` 已修改，且已执行 `ollama pull <新模型>` 与 `python app.py build`。
 
 **Q5：向量数据库文件可以提交到 Git 吗？**
-A：不可以，`data/chroma/` 已在 `.gitignore` 中忽略；克隆仓库后执行 `python app.py build` 即可重建。
+
+答：不可以，`data/chroma/` 已在 `.gitignore` 中忽略；克隆仓库后执行 `python app.py build` 即可重建。
 
 ## 十三、开源许可
 
