@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境配置（含本地模型名等私有信息，不提交）
+.env
+
+# 向量数据库（体积大且可随时重建，不提交）
+data/chroma/
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 测试与日志
+.pytest_cache/
+*.log
