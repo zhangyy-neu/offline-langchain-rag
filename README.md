@@ -1,7 +1,7 @@
 # 基于 LangChain 的智能知识库问答系统（离线 Ollama + 在线 DeepSeek 双模式）
 
 > 一个基于 RAG（检索增强生成）的智能问答应用：导入 TXT / PDF / Markdown 文档构建私有知识库，通过 Chroma 向量检索 + 大模型生成回答。
-支持两种推理模式：**离线模式**（本地 Ollama + qwen2.5:7b，全程不联网）与**在线模式**（DeepSeek 大模型，知识库检索仍在本地完成）。
+支持两种推理模式：**离线模式**（本地 Ollama + qwen2.5:7b）与**在线模式**（DeepSeek 大模型，知识库检索仍在本地完成）。
 
 - **开源仓库**：[https://github.com/zhangyy-neu/offline-langchain-rag](https://github.com/zhangyy-neu/offline-langchain-rag)
 - **许可协议**：[MIT](./LICENSE)
@@ -297,11 +297,11 @@ docs/
 └── answer.png    # 问答结果与参考来源展示
 ```
 
-示例（替换为你的实际截图）：
+示例：
 
 ![首页](docs/home.png)
 
-![问答结果与参考来源](docs/answer.png)
+![模型配置界面](docs/upload.png)
 
 ## 十二、常见问题（FAQ）
 
