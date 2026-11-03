@@ -299,15 +299,15 @@ docs/
 
 示例：
 
-![首页](docs/home.png)
-
 **图 1：Streamlit 首页**——左侧为模型与配置、知识库管理侧边栏，支持推理模式切换与文档上传。
+
+![首页](docs/home.png)
 
 <br>
 
-![模型配置界面](docs/upload.png)
-
 **图 2：上传文档界面**——支持 TXT / PDF / Markdown 多选上传，上传后点击「重建知识库索引」即可将文档入库。
+
+![模型配置界面](docs/upload.png)
 
 ## 十二、常见问题（FAQ）
 
