@@ -287,18 +287,6 @@ python -m unittest tests.test_qa -v
 
 ## 十一、运行截图
 
-> 部署并运行成功后，建议将以下界面截图保存至 `docs/` 目录并替换下方图片链接，直观展示项目运行效果（截图可证明项目已实际跑通）。
-
-```text
-docs/
-├── home.png      # Streamlit 首页（模型配置 + 知识库管理侧边栏）
-├── upload.png    # 上传文档界面
-├── build.png     # 索引构建完成提示
-└── answer.png    # 问答结果与参考来源展示
-```
-
-示例：
-
 **图 1：Streamlit 首页**——左侧为模型与配置、知识库管理侧边栏，支持推理模式切换与文档上传。
 
 ![首页](docs/home.png)
